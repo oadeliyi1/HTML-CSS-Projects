@@ -1,0 +1,13 @@
+https://leannezhang.medium.com/difference-between-css-position-absolute-versus-relative-35f064384c6
+
+- When you positon something relative, you are positioning it relative to its current position
+
+-Absolute things will be positoned based on where its parent position. position the element  based on its
+closest positioned ancestor position. it changes the layout
+
+position: relative places an element relative to its current position without changing the layout around it, whereas position:
+absolute places an element relative to its parent’s position and changing the layout around it.
+
+so when we took the video container and made it's position absolute, we positioned it based on it's
+parent (showcase) and changed the layout (the text) around it. this is why the text looked like it "moved
+to where the video was.
