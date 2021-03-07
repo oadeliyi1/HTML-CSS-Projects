@@ -8,6 +8,7 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   list-style: none;
 }
 
 body {
@@ -115,5 +116,36 @@ h1 {
 
 .social a{
    margin: 0 5px
+}
+
+/* NavBar CSS */
+.navb {
+   position: absolute;
+   z-index: 10;
+   right: 100px;
+   top: 50px;
+}
+
+.navb ul{
+   left: -100px;
 
 }
+
+.checkbtn {
+   font-size: 30px;
+   color: white;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   z-index: 10;
+
+}
+
+.navb ul li{
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+
+}
+
+/* learn more about navbar, youre still having trouble */
